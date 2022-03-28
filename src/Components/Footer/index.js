@@ -1,9 +1,14 @@
 import { AiOutlineLinkedin, AiOutlineMail } from "react-icons/ai";
 
-import { BsGithub } from "react-icons/bs";
+import { BsGithub, BsFillArrowUpCircleFill } from "react-icons/bs";
 
 
-export default function Social() {
+export default function Footer() {
+
+  function scrollToComponent(id) {
+    document.getElementById(id).scrollIntoView();
+  }
+
   return (
     <div style={{
       display: "inline-block",
@@ -28,6 +33,17 @@ export default function Social() {
       }}>
         <AiOutlineMail size={20} />
         <h4> anna.bele.ribeiro@gmail.com</h4>
+      </div>
+
+      <div onClick={() => scrollToComponent("sobreMim")}
+      style={{
+        display: "flex",
+        padding: 10,
+      }} >
+
+        <BsFillArrowUpCircleFill size={20}  />
+
+        <h4> Voltar ao início</h4>
       </div>
 
 

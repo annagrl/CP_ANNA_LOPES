@@ -14,7 +14,7 @@ export default function Header() {
             <img src={logo} width={100} />
             <ul className="nav">
 
-                <li className="nav-item" >Sobre mim</li>
+                <li className="nav-item">Sobre mim</li>
                 <li className="nav-item" onClick={() => scrollToComponent("projetos")}>Projetos</li>
                 <li className="nav-item" onClick={() => scrollToComponent("tools")}>Ferramentas </li>
 
