@@ -11,3 +11,8 @@ a{
     text-decoration: none;
     color:white;
 }
+
+.container{
+    background-image: url(./img/banner.jpg);
+    height: 100vh;
+}

@@ -12,7 +12,7 @@ export default function Social() {
       padding: 30,
     }}>
 
-     
+
 
       <a href="https://github.com/annagrl">
         <BsGithub size={30} color="black" />
@@ -23,8 +23,8 @@ export default function Social() {
       </a>
 
       <div style={{
-      display: "flex",
-      padding: 10,
+        display: "flex",
+        padding: 10,
       }}>
         <AiOutlineMail size={20} />
         <h4> anna.bele.ribeiro@gmail.com</h4>
