@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import "./style.css";
+import Header from "./Components/Header";
+import About from "./Components/About";
+import Projects from "./Components/Projects";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <Header/>
+      <div style={{ 
+      backgroundImage: `url("https://cc-prod.scene7.com/is/image/CCProdAuthor/Background-design-software_P4_720x422?$pjpeg$&jpegSize=200&wid=750")` 
+    }}></div>
+      <About/>
+      <Projects/>
+      <Footer/>
+
+    
     </div>
-  );
+  )
 }
 
 export default App;
