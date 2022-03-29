@@ -1,6 +1,5 @@
-import { GrMailOption } from "react-icons/gr";
 
-import { BsGithub, BsFillArrowUpCircleFill, BsLinkedin } from "react-icons/bs";
+import { BsGithub, BsFillArrowUpCircleFill, BsLinkedin, BsMailbox } from "react-icons/bs";
 
 
 export default function Footer() {
@@ -31,7 +30,7 @@ export default function Footer() {
         display: "flex",
         padding: 10,
       }}>
-        <GrMailOption size={20} />
+        <BsMailbox size={20} />
         <h4> anna.bele.ribeiro@gmail.com</h4>
       </div>
 
