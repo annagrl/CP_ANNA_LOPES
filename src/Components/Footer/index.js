@@ -1,6 +1,6 @@
-import { AiOutlineLinkedin, AiOutlineMail } from "react-icons/ai";
+import { GrMailOption } from "react-icons/gr";
 
-import { BsGithub, BsFillArrowUpCircleFill } from "react-icons/bs";
+import { BsGithub, BsFillArrowUpCircleFill, BsLinkedin } from "react-icons/bs";
 
 
 export default function Footer() {
@@ -24,14 +24,14 @@ export default function Footer() {
       </a>
 
       <a href="https://www.linkedin.com/in/annagabrieleribeirolopes/">
-        <AiOutlineLinkedin size={30} color="black" />
+        <BsLinkedin size={30} color="black" />
       </a>
 
       <div style={{
         display: "flex",
         padding: 10,
       }}>
-        <AiOutlineMail size={20} />
+        <GrMailOption size={20} />
         <h4> anna.bele.ribeiro@gmail.com</h4>
       </div>
 
