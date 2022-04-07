@@ -16,7 +16,7 @@ export default function Header() {
                 
                 </p>
 
-                <img src={foto} width={400}/>
+                
 
                
                 
